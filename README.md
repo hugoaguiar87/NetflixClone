@@ -60,7 +60,7 @@
 
 <p>
 
-> - <a href='rotten-sheet.surge.sh'>CLIQUE AQUI</a>
+> - <a href='https://rotten-sheet.surge.sh'>CLIQUE AQUI</a>
  ---
 
 <h2 align="center">Imagens da Aplicação</h2>
