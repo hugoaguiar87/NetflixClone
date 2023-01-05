@@ -28,5 +28,32 @@
 }
 
 .movieRow--list {
-    width: 9999999px;
+    transition: all ease 0.3s;
+}
+
+.movieRow--buttonBefore, .movieRow--buttonNext {
+    height: 225.5px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 99;
+    cursor: pointer;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transition: all ease 0.5s;
+}
+
+.movieRow:hover .movieRow--buttonBefore, .movieRow:hover .movieRow--buttonNext {
+    opacity: 1;
+}
+
+.movieRow--buttonBefore {
+    left: 0px;
+}
+
+.movieRow--buttonNext {
+    right: 0px;
 }
