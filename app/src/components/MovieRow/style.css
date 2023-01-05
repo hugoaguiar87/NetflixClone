@@ -1,0 +1,65 @@
+.movieRow {
+    margin-bottom: 30px;
+}
+
+.movieRow h2 {
+    margin: 0px 0px 0px 30px;
+}
+
+.movieRow--listArea {
+    overflow-x: hidden;
+    padding-left: 30px;
+}
+
+.movieRow--item {
+    display: inline-block;
+    width: 150px;
+    cursor: pointer;
+}
+
+.movieRow--item img {
+    width: 100%;
+    transform: scale(0.9);
+    transition: all ease 0.3s;
+}
+
+.movieRow--item img:hover {
+    transform: scale(1);
+}
+
+.movieRow--list {
+    transition: all ease 0.3s;
+}
+
+.movieRow--buttonBefore, .movieRow--buttonNext {
+    height: 225.5px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 99;
+    cursor: pointer;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transition: all ease 0.5s;
+}
+
+.movieRow:hover .movieRow--buttonBefore, .movieRow:hover .movieRow--buttonNext {
+    opacity: 1;
+}
+
+.movieRow--buttonBefore {
+    left: 0px;
+}
+
+.movieRow--buttonNext {
+    right: 0px;
+}
+
+@media (max-width: 800px) {
+    .movieRow--buttonBefore, .movieRow--buttonNext {
+        opacity: 0.5;
+    }
+}
