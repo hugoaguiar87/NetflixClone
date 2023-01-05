@@ -59,6 +59,18 @@ const App = () => {
           )
         })}
       </section>
+
+      <footer>
+        <p>
+          Criado com muito ♥ por <a href="https://www.linkedin.com/in/hugoaguiar87/" target='_blank' rel="noreferrer" >Hugo Aguiar</a>
+        </p>
+        <p>
+          Todos direitos de imagem reservados para Netflix
+        </p>
+        <p>
+          Todos os dados dos filmes foram pegos em <a href="https://developers.themoviedb.org/3/getting-started/introduction" target='_blank' rel="noreferrer" >themoviedb.org</a>
+        </p>
+      </footer>
     </div>
   )
 }
