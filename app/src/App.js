@@ -6,6 +6,8 @@ import Header from "./components/Header";
 import MovieRow from "./components/MovieRow";
 import { data } from "./helpers/Requests";
 
+import Loading from './assets/loading.gif'
+
 
 const App = () => {
 
@@ -71,6 +73,12 @@ const App = () => {
           Todos os dados dos filmes foram pegos em <a href="https://developers.themoviedb.org/3/getting-started/introduction" target='_blank' rel="noreferrer" >themoviedb.org</a>
         </p>
       </footer>
+
+      {movieList.length <=0 && 
+        <div className="loading">
+          <img src={Loading} alt="loading"/>
+        </div>
+      }
     </div>
   )
 }
