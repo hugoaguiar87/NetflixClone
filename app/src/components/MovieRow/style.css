@@ -57,3 +57,9 @@
 .movieRow--buttonNext {
     right: 0px;
 }
+
+@media (max-width: 800px) {
+    .movieRow--buttonBefore, .movieRow--buttonNext {
+        opacity: 0.5;
+    }
+}

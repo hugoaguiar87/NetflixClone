@@ -76,7 +76,7 @@ const App = () => {
 
       {movieList.length <=0 && 
         <div className="loading">
-          <img src={Loading} alt="loading"/>
+          <img src={Loading} alt="loading..."/>
         </div>
       }
     </div>

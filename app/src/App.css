@@ -41,3 +41,9 @@ footer a {
 .loading img {
     height: 50vh;
 }
+
+@media (max-width:800px) {
+    footer p {
+        font-size: 12px;
+    }
+}
